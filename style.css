@@ -1,0 +1,348 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav {
+    position: sticky;
+    top: 0px;
+    width: 100%;
+    height: 12vh;
+    background-color: rgb(15, 23, 30);
+    display: flex;
+    background-image: linear-gradient(rgb(27, 37, 48) 0px, rgba(27, 37, 48, 0.85));
+    align-items: center;
+    justify-content: space-between;
+}
+.navLeft {
+    display: flex;
+    align-items: center;
+    margin: 30px;
+}
+nav img {
+    height: 35px;
+    margin: 20px;
+}
+nav a {
+    font-weight: 300;
+    font-size: 16px;
+    color: rgba(242, 244, 246, 0.965);
+    margin: 10px;
+    text-decoration: none;
+}
+.primeright {
+    margin: 1px;
+}
+.primeright button {
+    height: 40px;
+    width: 132px;
+    font-size: 16px;
+    color: rgba(242, 244, 246, 0.965);
+    background-color: rgb(15, 121, 175);
+    border-radius: 5px;
+    margin: 10px;
+    border-width: initial;
+    border-style: none;
+    border-color: initial;
+    border-image: initial;
+    transition: all 0.2s ease-in-out 0s;
+}
+nav a {
+    font-weight: 300;
+    font-size: 16px;
+    color: rgba(242, 244, 246, 0.965);
+    margin: 10px;
+    text-decoration: none;
+}
+.primeright #lang {
+    height: 40px;
+    width: 52px;
+    font-size: 16px;
+    color: rgba(242, 244, 246, 0.965);
+    background-color: rgba(15, 121, 175, 0);
+    border-radius: 5px;
+    border-width: initial;
+    border-style: none;
+    border-color: initial;
+    border-image: initial;
+}
+.primeright option {
+    background-color: black;
+}
+.primeright #profile {
+    height: 40px;
+    width: 55px;
+    font-size: 16px;
+    color: rgba(242, 244, 246, 0.965);
+    background-color: rgba(15, 121, 175, 0);
+    margin: 10px;
+    border-width: initial;
+    border-style: none;
+    border-color: initial;
+    border-image: initial;
+    border-radius: 5px;
+}
+.primeright option {
+    background-color: black;
+}
+.hero {
+    background-image: url(./images/img1.jpg);
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+}
+.img {
+    height: 83vh;
+    margin-left: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: flex-start;
+    background: linear-gradient(90deg, rgb(0, 0, 0) 34%, rgba(0, 0, 0, 0.69) 40%, rgba(0, 0, 0, 0) 46%);
+}
+.textSection {
+    color: white;
+}
+.textSection h1 {
+    font-size: 45px;
+    font-weight: 300;
+    margin-bottom: 25px;
+}
+.textSection p {
+    font-weight: 300;
+    font-size: 25px;
+    width: 500px;
+    margin: 15px 0px;
+}
+.textSection button {
+    font-size: 18px;
+    font-weight: 700;
+    height: 45px;
+    width: 280px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(15, 121, 175);
+    border-width: initial;
+    border-style: none;
+    border-color: initial;
+    border-image: initial;
+    border-radius: 4px;
+}
+#hero2 {
+    background-image: url(./images/img2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#hero2 .img {
+    align-content: flex-end;
+    margin-right: 70px;
+    background: linear-gradient(90deg, rgba(1, 2, 4, 0) 49%, rgba(0, 0, 0, 0.714) 53%, rgb(0, 0, 0) 60%);
+}
+
+.textsection{
+    color: white;
+}
+#hero2 .textsection h1 {
+    width: 500px;
+    font-size: 40px;
+    font-family: "Amazon Ember", "Amazon Arabic Ember", Arial, sans-serif !important;
+}
+#hero2 .textsection p {
+    width: auto;
+    font-weight: 300;
+    font-size: 20px;
+    font-family: "Amazon Ember", "Amazon Arabic Ember", Arial, sans-serif !important;
+}
+.textsection button {
+    font-size: 18px;
+    font-weight: 700;
+    height: 45px;
+    width: 280px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(15, 121, 175);
+    border-width: initial;
+    border-style: none;
+    border-color: initial;
+    border-image: initial;
+    border-radius: 4px;
+}
+.options {
+    width: 100%;
+    display: flex;
+    height: 88vh;
+}
+.text {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.text h1 {
+    padding: 28px 80px;
+    font-size: 45px;
+    font-weight: 100;
+}
+.text h3 {
+    font-weight: 200;
+    font-size: 24px;
+    margin-left: 60px;
+}
+
+.flex-sec-3 {
+    width: 55%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding: 0px 78px;
+}
+.flex-box {
+    width: 220px;
+    height: 155px;
+    background-color: rgb(64, 5, 142);
+    margin: 3px 0px;
+    background-position: center;
+    background-size: cover;
+    cursor: pointer;
+    transition:all ease-in-out 0.3s;
+}
+
+.flex-box:first-child {
+    background-image: url(./images/bg1.jpg);
+}
+.flex-box:nth-child(2) {
+    background-image: url(./images/bg2.jpg);
+}
+.flex-box:nth-child(3) {
+    background-image: url(./images/bg3.jpg);
+}
+.flex-box:nth-child(4) {
+    background-image: url(./images/bg4.jpg);
+}
+.flex-box:nth-child(5) {
+    background-image: url(./images/bg5.jpg);
+}
+.flex-box:nth-child(6) {
+    background-image: url(./images/bg6.png);
+}
+.flex-box:nth-child(7) {
+    background-image: url(./images/bg7.png);
+}
+.flex-box:nth-child(8) {
+    background-image: url(./images/bg8.jpg);
+}
+.flex-box:nth-child(9) {
+    background-image: url(./images/bg9.jpg);
+}
+.flex-box:nth-child(10) {
+    background-image: url(./images/bg10.png);
+}
+.flex-box:nth-child(11) {
+    background-image: url(./images/bg11.png);
+}
+.flex-box:last-child {
+    background-image: url(./images/bg12.png);
+}
+#hero4{
+    background-image: url(./images/img3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#hero4 .img {
+    align-content: flex-end;
+    margin-right: 70px;
+    background: linear-gradient(90deg, rgba(1, 2, 4, 0) 49%, rgba(0, 0, 0, 0.714) 53%, rgb(0, 0, 0) 60%);
+}
+.textsection {
+    color: white;
+}
+#hero4 .textsection h1 {
+    width: 500px;
+    font-size: 40px;
+    font-family: "Amazon Ember", "Amazon Arabic Ember", Arial, sans-serif !important;
+}
+#hero4 .textsection p {
+    width: 500px;
+    font-weight: 300;
+    font-size: 20px;
+    font-family: "Amazon Ember", "Amazon Arabic Ember", Arial, sans-serif !important;
+}
+.textsection button {
+    font-size: 18px;
+    font-weight: 700;
+    height: 45px;
+    width: 280px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(15, 121, 175);
+    border-width: initial;
+    border-style: none;
+    border-color: initial;
+    border-image: initial;
+    border-radius: 4px;
+}
+#hero5 {
+    background-image: url(./images/img4.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.img {
+    height: 83vh;
+    margin-left: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: flex-start;
+    background: linear-gradient(90deg, rgb(0, 0, 0) 34%, rgba(0, 0, 0, 0.69) 40%, rgba(0, 0, 0, 0) 46%);
+}
+.textsection {
+    color: white;
+}
+.textsection h1 {
+    font-size: 45px;
+    font-weight: 300;
+    margin-bottom: 25px;
+}
+.textsection p {
+    font-weight: 300;
+    font-size: 25px;
+    width: 500px;
+    margin: 15px 0px;
+}
+.textsection button {
+    font-size: 18px;
+    font-weight: 700;
+    height: 45px;
+    width: 280px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(15, 121, 175);
+    border-width: initial;
+    border-style: none;
+    border-color: initial;
+    border-image: initial;
+    border-radius: 4px;
+}
+footer {
+    height: 25vh;
+    text-align: center;
+    background: rgb(34, 34, 34);
+}
+footer img {
+    height: 32px;
+    margin-top: 25px;
+}
+footer a {
+    color: rgb(15, 121, 175);
+    font-weight: 300;
+    text-decoration: none;
+    margin: 15px;
+}
+footer p {
+    color: rgba(155, 155, 155, 0.965);
+    font-size: 13px;
+    font-family: "Amazon Ember", "Amazon Arabic Ember", Arial, sans-serif !important;
+}
